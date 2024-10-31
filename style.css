@@ -1,0 +1,359 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.testata{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: #605678;
+    align-items: center;
+    justify-content: center;
+}
+
+    .nome{
+        width: 100%;
+    }
+
+    .sottotitolo{
+        width: 100%;
+    }
+h1{
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    color: #ffe95e;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    white-space: nowrap;
+    color: #43385f;
+    text-align: center; 
+    letter-spacing: 5px;
+}
+
+.reverse{
+    transform: rotate(180deg);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2{
+    color: #605678;
+    padding-bottom: 10px;
+}
+
+.img-profile{
+    border-radius: 50%;
+}
+
+.paragrafo{
+    width: 50%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.paragrafo1{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.paragrafo4{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.coin{
+    margin-left: 150px;
+}
+
+.ghost{
+    padding-bottom: 1px;
+}
+
+.ghost2{
+    padding-bottom: 1px;
+    margin-left: 30px;
+}
+
+.pac-man {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 20px;
+    position: relative;
+    transition: transform 10s ease-out; /* Aggiunge morbidezza allo spostamento */
+}
+
+.pac-man2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    transition: transform 10s ease-out; /* Aggiunge morbidezza allo spostamento */
+}
+
+.pac-man3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding-top: 100px;
+}
+
+
+.pac-man > * {
+    margin-right: 20px;
+}
+
+.pac-man2 > * {
+    margin-right: 20px;
+}
+
+
+.tabella{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    width: 70%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 righe uguali */
+    grid-template-columns: 0.5fr 1fr; /* 2 colonne uguali */
+}
+
+.ombra-img{
+    border-radius: 8px; /* Opzionale, per angoli arrotondati */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ombra */
+}
+
+.skills{
+    margin-top: 100px;
+    color: #605678;
+}
+
+.contattami{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #605678;
+}
+
+.cell1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cell3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell4{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #605678;
+}
+
+.cell5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell6{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.spazio{
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #605678;
+    color: #fff; /* Colore del testo */
+    border: none;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Transizione morbida */
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.button:hover {
+    background-color: #4d465e; /* Colore più scuro per l'hover */
+}
+
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    background-color: #605678;
+    margin-top: 50px;
+}
+
+
+       /* Stile generale del footer */
+       .footer-container {
+        margin-top: 50px;
+        background-color: #605678; /* Cambia con il colore desiderato */
+        color: white;
+        padding: 4px 0;
+        text-align: center;
+    }
+
+    .footer-container .footer-social-links {
+        display: flex;
+        flex-direction: row; /* Al posto di column, ora sono su una riga */
+        align-items: center;
+        justify-content: center; /* Centra i link orizzontalmente */
+        margin: 50px 0;
+    }
+
+    /* Link ai social media */
+    .footer-social-links a {
+        margin: 0 15px;
+        font-family: "Roboto", sans-serif;
+        color: #43385f;
+        font-size: 24px;
+        text-decoration: none; /* Rimuove la sottolineatura */
+        transition: color 0.3s ease;
+    }
+
+    .footer-social-links a:hover {
+        color: #ffe95e; /* Colore di hover */
+    }
+
+    /* Testo nel footer */
+    .footer-text p {
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* Schermi di medie dimensioni (tablet) */
+@media (max-width: 1024px) {
+    .testata {
+        height: 300px; /* Riduce l'altezza per schermi medi */
+    }
+    h1 {
+        font-size: 3rem;
+        letter-spacing: 15px;
+    }
+    h2 {
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+    .paragrafo {
+        width: 80%;
+        font-size: 18px;
+    }
+    .grid {
+        width: 90%;
+        grid-template-columns: 1fr; /* Colonne in una sola riga */
+        grid-template-rows: auto;
+        gap: 30px;
+        text-align: center;
+    }
+    .cell2, .cell4, .cell6 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+}
+
+/* Schermi piccoli (smartphone) */
+@media (max-width: 600px) {
+
+    .testata {
+        height: 250px; /* Riduce l'altezza per schermi piccoli */
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        letter-spacing: 10px;
+    }
+    h2 {
+        font-size: 1.2rem;
+        padding-bottom: 20px;
+    }
+    .container, .paragrafo {
+        width: 100%;
+        font-size: 16px;
+    }
+    .grid {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .button {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+    .footer-container {
+        padding: 20px 10px;
+    }
+    .footer-social-links {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+}
